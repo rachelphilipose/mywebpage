@@ -1,11 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #730d25;
+  background-color: #f2eadf;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,6 +22,13 @@ a:hover {
   color: #535bf2;
 }
 
+p {
+  font-weight: 500;
+  text-decoration: inherit;
+  font-size: 1.5em;
+}
+
+
 body {
   margin: 0;
   display: flex;
@@ -29,6 +36,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
 
 h1 {
   font-size: 3.2em;
@@ -42,10 +50,11 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #f72828;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
