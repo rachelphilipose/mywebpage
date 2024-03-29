@@ -1,8 +1,8 @@
 
 import Fullpage, {FullPageSections, FullpageSection, /*FullpageNavigation*/} from '@ap.cx/react-fullpage';
 import "../../index.css"
-import profilePic from "/Users/rachelphilipose/my-Dev/mywebpage/rachel_webpage/src/assets/IMG-1891.jpg"
-import * as bootstrap from 'bootstrap';
+import profilePic from "/Users/rachelphilipose/my-Dev/mywebpage/rachel_webpage/src/assets/IMG_1888.jpg"
+
 
 
 const FullPage = () => {
@@ -52,11 +52,11 @@ const FullPage = () => {
                             </div>
 
                             <div className='container'>
-                                <p>I&apos;m a student at the University of Waterloo studying Computer Science. When I&apos;m not coding, you can probably find me rock-climbing, thrifting, or reading. </p>
+                                <p>I&apos;m a second year Computer Science student at the Univeristy of Waterloo. When I&apos;m completing assignments or coding, you can probably find me rock-climbing, thrifting, or reading. </p>
                             </div>
 
                             <div className='container'>
-                                <p> Since you&apos;re already here, scroll down to learn more about me, and click the links above to connect with me via LinkedIn, Email, or GitHub. Don&apos;t be a lurker, say hi, I&apos;m very friendly! </p>
+                                <p> Since you&apos;re already here, scroll down to learn more about me, and click the links above to connect with me via LinkedIn, Email, or Phone Number. Don&apos;t be a stranger, say hi, I&apos;m very friendly! </p>
                             </div>
 
                         </div>
@@ -65,28 +65,25 @@ const FullPage = () => {
                 </FullpageSection>
 
                 <FullpageSection style={SectionStyle}> 
+                
                     <div className="container-text-center">
                         <div className="row">
-                            <h1>Screen 2</h1>
+                            <h1>Professional Experience</h1>
+                            <p> I&apos;ve completed one internship and two co-op placements so far, 
+                                encompassing a variety of roles ranging from 
+                                Full Stack Software Engineer to Site Reliability Engineer and AI/ML Developer. 
+                                In all of my roles, I&apos;ve had the opportunity to make a real impact on 
+                                the companies I&apos;ve worked with by successfully planning and executing 
+                                projects independently.  </p>
+                            <p> Some things I&apos;ve worked on in the past are 
+                                designing a UI for a form-based onboarding wizard, implementing a Computer Vision 
+                                AI model to perform crowd analysis, and creating a GitHub Bot from scratch to minimize drift between production branches. </p>
+                                
                         </div>
                     </div>
                     
                 </FullpageSection>
 
-                <FullpageSection style={SectionStyle}>
-                    <div className='row'>
-                        
-                        <h1>Screen 3 </h1>
-                    </div>
-
-                </FullpageSection>
-
-                <FullpageSection style={SectionStyle}>
-                    <div className='row'>
-                        <h1>Screen 4</h1>
-
-                    </div>
-                </FullpageSection>
 
             </FullPageSections>
 

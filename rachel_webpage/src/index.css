@@ -5,12 +5,13 @@
 
   color-scheme: light dark;
   color: #730d25;
-  background-color: #f2eadf;
+  background-color: #f2f0df;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 a {
@@ -61,6 +62,41 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #f2f0df;
+  width: 100%;
+  position: fixed;
+  left: 0; /* Add this line */
+  top: 0; /* Add this line */
+  text-align: center; /* Add this line */
+  z-index: 9999; /* Set a high z-index value */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #730d25;
+  text-align: center;
+  align-items: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ebd6cf;
+  color: #730d25;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #730d25;
+  color: #f2eadf;
 }
 
 @media (prefers-color-scheme: light) {
