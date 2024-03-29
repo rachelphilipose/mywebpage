@@ -6,12 +6,6 @@ import NavSection from './components/NavSection/NavSection';
 
 function App() {
 
-  const stickyStyle =  {
-    position: 'sticky',
-    top: '0',
-    width: '100%'
-  }
-
   return (
     <>
       <meta charset="UTF-8"/>
