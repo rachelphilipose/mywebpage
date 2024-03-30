@@ -52,7 +52,7 @@ const FullPage = () => {
                             </div>
 
                             <div className='container'>
-                                <p>I&apos;m a second year Computer Science student at the Univeristy of Waterloo. When I&apos;m completing assignments or coding, you can probably find me rock-climbing, thrifting, or reading. </p>
+                                <p>I&apos;m a second year Computer Science student at the University of Waterloo. When I&apos;m not completing assignments or coding, you can probably find me rock-climbing, thrifting, or reading. </p>
                             </div>
 
                             <div className='container'>
@@ -65,7 +65,7 @@ const FullPage = () => {
                 </FullpageSection>
 
                 <FullpageSection style={SectionStyle}> 
-                
+
                     <div className="container-text-center">
                         <div className="row">
                             <h1>Professional Experience</h1>
