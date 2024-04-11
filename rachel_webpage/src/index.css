@@ -3,9 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: #730d25;
-  background-color: #f2f0df;
+
+  color: #730d25 !important;
+  background-color: #f2f0df !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
